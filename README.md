@@ -65,3 +65,11 @@ https://www.youtube.com/watch?v=YPbgjPPC1d0
 https://dev.to/dabit3/building-scalable-full-stack-apps-on-ethereum-with-polygon-2cfb
 
 https://github.com/dappuniversity/nft/tree/master/src/contracts
+
+
+
+
+.secret --> addr (CRO cypress): 0x8F37B3A899d5C8479954d390003Bcd754C03cBb4
+
+FTMarket deployed to: 0xCcb361240BFbbE4E82f55fA16466aB922CA11724
+/ 0x501eCc10eda1aE8F9346eC1Cc194Ef9dab519C33 nft esta no ar

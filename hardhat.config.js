@@ -16,15 +16,19 @@ task("accounts", "Prints the list of accounts", async (taskArgs, hre) => {
 
 module.exports = {
   networks: {
-    hardhat: { chainId: 1337 },
-    mumbai: {
-      url: `https://polygon-mumbai.infura.io/v3/${process.env.REACT_APP_PROJECTID}`,
-      accounts: [privateKey],
-    },
+    hardhat: { chainId: 21004 },
     mainnet: {
-      url: `https://polygon-mainnet.infura.io/v3/${process.env.REACT_APP_PROJECTID}`,
+      url: `https://rpc.c4ei.net`,
       accounts: [privateKey],
     },
+    // mumbai: {
+    //   url: `https://polygon-mumbai.infura.io/v3/${process.env.REACT_APP_PROJECTID}`,
+    //   accounts: [privateKey],
+    // },
+    // mainnet: {
+    //   url: `https://polygon-mainnet.infura.io/v3/${process.env.REACT_APP_PROJECTID}`,
+    //   accounts: [privateKey],
+    // },
   },
   solidity: "0.8.4",
 };
